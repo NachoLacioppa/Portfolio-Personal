@@ -80,6 +80,10 @@ section{
     background-color: black !important ;
 }
 
+.progress-bar{
+    background-color: rgb(31, 31, 31) !important;
+}
+
 #footer{
     padding: 10px;
     text-align: center;
