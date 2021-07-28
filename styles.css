@@ -1,16 +1,28 @@
 body{
     font-family: 'Titillium Web', sans-serif;
+    background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%231c1b1c' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
-h1{ font-size: 66px; font-weight: 600; line-height: 80px; }
-h2{ font-size: 48px; margin-bottom: 30px; }
+h1{ font-size: 66px; font-weight: 600; line-height: 80px; color: honeydew;}
+h2{ font-size: 48px; margin-bottom: 30px; color: honeydew;}
+h3{ color: white; }
 
 p{
     font-size: 18px;
-    color:black;
+    color:white;
     margin-bottom: 0;
     line-height: 1.8;
 }
+
+ion-icon{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
 
 section{
     padding: 120px 0;
@@ -42,23 +54,32 @@ section{
 .topmargin-lg{margin-top: 60px;}
 
 .navbar {
-    background-color: #ffffff;
+    background-color: #3f3f3f;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0);
     min-height: 20px;
 }
 
-.nav-link{ color: black; }
-.nav-link:hover { color: black; }
+
+.nav-item{
+    padding: 10px;
+}
+
+.nav-link{ color: rgb(255, 255, 255); }
+.nav-link:hover { color: rgb(255, 255, 255); border-bottom: 1px solid;}
+
+
 
 .logo-brand {
     min-width: 55px;
     max-width: 75px;
+    color: white;
 }
 .navbar-toggler { font-size: 40px; }
 .navbar-toggler:focus { outline: none; }
+.navbar-brand:hover { color: rgb(255, 255, 255); border-bottom: 1px solid; }
 
 #hero{
-    background-image: url('IMAGES/HERO.jpg');
+    /*background-image: url('IMAGES/HERO.jpg');*/
     background-size: cover;
     padding: 90px;
     min-height: 700px;
@@ -76,18 +97,22 @@ section{
     color: white;
 }
 
-.bg-dark{
-    background-color: black !important ;
+.bg-gray{
+    background-color: #3f3f3f !important ;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    text-align: center;
 }
 
 .progress-bar{
-    background-color: rgb(31, 31, 31) !important;
+    background-color: rgb(38, 173, 26) !important;
 }
 
 #footer{
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     color: white;
+    background-color: #3f3f3f;
 }
 
 #footer a{
@@ -99,19 +124,15 @@ section{
     
 }
 
-#footer .list-inline .list-inline-item{
-    padding: 10px 15px;
-}
-
-
 #footer p{
     color: white;
     padding: 15px 26px;
 }
 
 
-
-@media (max-width: 575.98px) { h1 {font-size: 40px; line-height: normal;} }
+@media (max-width: 575.98px) { 
+    h1 {font-size: 40px; line-height: normal;} 
+}
 /*
 @media (max-width: 767.98px) { ... }
 @media (max-width: 991.98px) { ... }
