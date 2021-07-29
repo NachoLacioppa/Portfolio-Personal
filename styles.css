@@ -81,14 +81,14 @@ section{
 #hero{
     /*background-image: url('IMAGES/HERO.jpg');*/
     background-size: cover;
-    padding: 40px;
+    padding: 40px auto;
     min-height: 700px;
     color: white;
 }
 #EXP_LAB{
     /*background-image: url('IMAGES/HERO.jpg');*/
     background-size: cover;
-    padding: 40px;
+    padding: 40px auto;
     min-height: 700px;
     color: white;
 }
@@ -96,7 +96,7 @@ section{
 #info{
     /*background-image: url('IMAGES/HERO.jpg');*/
     background-size: cover;
-    padding: 40px;
+    padding: 40px auto;
     min-height: 700px;
     color: white;
 }
