@@ -85,6 +85,21 @@ section{
     min-height: 700px;
     color: white;
 }
+#EXP_LAB{
+    /*background-image: url('IMAGES/HERO.jpg');*/
+    background-size: cover;
+    padding: 90px;
+    min-height: 700px;
+    color: white;
+}
+
+#info{
+    /*background-image: url('IMAGES/HERO.jpg');*/
+    background-size: cover;
+    padding: 90px;
+    min-height: 700px;
+    color: white;
+}
 
 .content-center{
     max-width: 800px;
