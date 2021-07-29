@@ -1,3 +1,4 @@
+/*HTML5 MODIFICADO*/
 body{
     font-family: 'Titillium Web', sans-serif;
     background-color: #000000;
@@ -15,20 +16,19 @@ p{
     line-height: 1.8;
 }
 
-ion-icon{
-    color: white;
-}
-
 li{
     color: white;
 }
-
 
 section{
     padding: 120px 0;
 }
 
+ion-icon{
+    color: white;
+}
 
+/*Clases custom*/
 .btn{
     font-size: 14px;
     padding: 15px 26px;
@@ -78,38 +78,11 @@ section{
 .navbar-toggler:focus { outline: none; }
 .navbar-brand:hover { color: rgb(255, 255, 255); border-bottom: 1px solid; }
 
-#hero{
-    /*background-image: url('IMAGES/HERO.jpg');*/
-    background-size: cover;
-    padding: 40px auto;
-    min-height: 700px;
-    color: white;
-}
-#EXP_LAB{
-    /*background-image: url('IMAGES/HERO.jpg');*/
-    background-size: cover;
-    padding: 40px auto;
-    min-height: 700px;
-    color: white;
-}
-
-#info{
-    /*background-image: url('IMAGES/HERO.jpg');*/
-    background-size: cover;
-    padding: 40px auto;
-    min-height: 700px;
-    color: white;
-}
-
 .content-center{
     max-width: 800px;
     margin: 0 auto 60px auto;
     text-align: center;
 
-}
-
-#hero p{
-    color: white;
 }
 
 .bg-gray{
@@ -121,6 +94,37 @@ section{
 
 .progress-bar{
     background-color: rgb(38, 173, 26) !important;
+}
+
+/*ID CUSTOM*/
+#hero{
+    /*background-image: url('IMAGES/HERO.jpg');*/
+    background-size: cover;
+    padding: 40px auto;
+    min-height: 700px;
+    margin: 50px;
+    color: white;
+}
+#EXP_LAB{
+    /*background-image: url('IMAGES/HERO.jpg');*/
+    background-size: cover;
+    padding: 40px auto;
+    min-height: 700px;
+    margin: 50px;
+    color: white;
+}
+
+#info{
+    /*background-image: url('IMAGES/HERO.jpg');*/
+    background-size: cover;
+    padding: 40px;
+    min-height: 700px;
+    margin: 50px;
+    color: white;
+}
+
+#hero p{
+    color: white;
 }
 
 #footer{
@@ -144,17 +148,10 @@ section{
     padding: 15px 26px;
 }
 
-
+/*PANTALLA DINAMICA*/
 @media (max-width: 575.98px) { 
     h1 {font-size: 40px; line-height: normal;} 
 }
-/*
-@media (max-width: 767.98px) { ... }
-@media (max-width: 991.98px) { ... }
-@media (max-width: 1199.98px) { ... }
-1
-*/
 
-/*ANIMACION*/
 
 
