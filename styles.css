@@ -1,7 +1,11 @@
+/*HTML5 MODIFICADO*/
 body{
     font-family: 'Titillium Web', sans-serif;
     background-color: #000000;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%231c1b1c' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23616161' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+
+
+
 }
 
 h1{ font-size: 66px; font-weight: 600; line-height: 80px; color: honeydew;}
@@ -15,19 +19,24 @@ p{
     line-height: 1.8;
 }
 
-ion-icon{
-    color: white;
-}
-
 li{
     color: white;
 }
-
 
 section{
     padding: 120px 0;
 }
 
+ion-icon{
+    color: white;
+}
+
+/*Clases custom*/
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
 
 .btn{
     font-size: 14px;
@@ -78,23 +87,11 @@ section{
 .navbar-toggler:focus { outline: none; }
 .navbar-brand:hover { color: rgb(255, 255, 255); border-bottom: 1px solid; }
 
-#hero{
-    /*background-image: url('IMAGES/HERO.jpg');*/
-    background-size: cover;
-    padding: 90px;
-    min-height: 700px;
-    color: white;
-}
-
 .content-center{
     max-width: 800px;
     margin: 0 auto 60px auto;
     text-align: center;
 
-}
-
-#hero p{
-    color: white;
 }
 
 .bg-gray{
@@ -106,6 +103,51 @@ section{
 
 .progress-bar{
     background-color: rgb(38, 173, 26) !important;
+}
+
+.card-text {
+    color: white;
+    font-size: 100%;
+}
+
+.card-title{
+    color: white;
+}
+
+.card{
+    background: black;
+    border-color: white;
+}
+
+/*ID CUSTOM*/
+#hero{
+    /*background-image: url('IMAGES/HERO.jpg');*/
+    background-size: cover;
+    padding: 40px auto;
+    min-height: 700px;
+    margin: 50px;
+    color: white;
+}
+#EXP_LAB{
+    /*background-image: url('IMAGES/HERO.jpg');*/
+    background-size: cover;
+    padding: 40px auto;
+    min-height: 700px;
+    margin: 50px;
+    color: white;
+}
+
+#info{
+    /*background-image: url('IMAGES/HERO.jpg');*/
+    background-size: cover;
+    padding: 40px;
+    min-height: 700px;
+    margin: 50px;
+    color: white;
+}
+
+#hero p{
+    color: white;
 }
 
 #footer{
@@ -129,16 +171,9 @@ section{
     padding: 15px 26px;
 }
 
-
+/*PANTALLA DINAMICA*/
 @media (max-width: 575.98px) { 
     h1 {font-size: 40px; line-height: normal;} 
 }
-/*
-@media (max-width: 767.98px) { ... }
-@media (max-width: 991.98px) { ... }
-@media (max-width: 1199.98px) { ... }
-*/
-
-/*ANIMACION*/
 
 
