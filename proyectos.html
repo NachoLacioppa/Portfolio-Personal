@@ -14,13 +14,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;1,200;1,300&display=swap"
         rel="stylesheet">
-    <!-- css -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="ICONS/code-slash-outline.svg" type="image/x-icon">
+   <!-- css -->
+   <link rel="stylesheet" href="styles.css">
+   <link rel="shortcut icon" href="ICONS/code-slash-outline.svg" type="image/x-icon">
     <!-- ion icon -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
     
     <title>Lacioppa Ignacio | Portfolio</title>
 </head>
@@ -51,37 +50,49 @@
     </nav>
     
     <!--WELCOME-->
-    <section id="hero" class="scroll-container">
+    <section id="proyecto" class="scroll-container">
         <div class="container">
             <div class="content-center topmargin-lg">
-                <br>
-                <h1>Bienvenido a mi portfolio</h1>
-                <br>
+                <h1><b>Proyectos</b></h1>
             </div>
         </div>
         <hr color="White" width="75%">
 
     <!--INFO EN MEDIO-->
-        <div class="container-fluid">
-            <div class="content-center ">
-                <h2> <b>Sobre mi.</b></h2>
-                   <p>¡Hola! Soy Ignacio Lacioppa, tengo 27 años y vivo en Zona Norte, Buenos Aires.</p> 
-                   <p>Soy técnico con vasta experiencia dedicado al Hardware, me encuentro en búsqueda activa en mi
-                    primera experiencia laboral en IT como desarrollador.</p>
-                    <p> Me gradúe de Tecnico Universitario en Programacion donde aprendí los lenguajes C, C++, C#,
-                        SQL Server y Java.</p> 
-                       <p>Me encuentro en aprendizaje autodidacta en cursos como HTML, JavaScript, CSS, PHP y MySQL</p> 
+    <div class="container-fluid">
+        <div class="content-center">
+            <div class="row">
+
+                <div class="col-md-7">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./IMAGES/todolist.PNG" class="card-img-top img-fluid">
+                        <div class="card-body">
+                          <h3 class="card-title">To Do List</h3>
+                          <p class="card-text">
+                              App para cargar tareas en la memoria del navegador, utilizando bootstrap, HTML5 y JavaScript
+                            </p>
+                            <br>
+                            <a href="https://nacholacioppa.github.io/To-Do-App/" class="btn btn-outline-light">Live Project</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./IMAGES/taller.PNG" class="card-img-top img-fluid">
+                        <div class="card-body">
+                          <h3 class="card-title">Sistema Taller</h3>
+                          <p class="card-text">
+                              Sistema de gestion de taller, programado en C#, SQL Server y HTML5 con bootstrap. No esta disponible online
+                            </p>
+                            <br>
+                                <a href="https://github.com/NachoLacioppa/Sistema_TallerWeb/tree/master/Sistema_Taller" class="btn btn-outline-light">GitHub</a>
+                        </div>
+                      </div>
+                </div>
             </div>
         </div>
+    </div>
         <hr color="White" width="75%">
-        <br>
-        <br>
-        <div class="container-fluid">
-            <div class="content-center">
-                <a href="https://drive.google.com/file/d/10KfzlKGTAkiy2Uyyq-cxVNAFCqK47vmI/view?usp=sharing"
-                class="btn btn-outline-light btn-block"> <strong>DESCARGA MI CV</strong></a>
-            </div>
-        </div>
     </section>
 
        <!--FOOTER-->
